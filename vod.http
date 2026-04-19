@@ -10,6 +10,7 @@ Cookie: some-cookie=some-value
 
 GET http://localhost:8080/webapi/bookstores/1
 Accept: application/xml
+Authorization: Basic dbuser1 dbuser1
 
 ### get bookstore with books
 
