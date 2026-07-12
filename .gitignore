@@ -14,5 +14,5 @@ pom.xml.war
 *.log
 
 # Dane bazy danych MySQL z wolumenu Dockera
-docker-vod/mysql/data/
-docker-vod/mysql/*.sock
+docker-bookstore/mysql/data/
+docker-bookstore/mysql/*.sock

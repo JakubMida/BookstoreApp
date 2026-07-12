@@ -47,14 +47,14 @@ Najszybszy sposób na postawienie całego środowiska (aplikacja + baza danych M
 1.  Otwórz terminal w głównym folderze projektu.
 2.  Uruchom komendę:
     ```bash
-    docker-compose -f docker-vod/docker-compose.yml up --build
+    docker-compose -f docker-bookstore/docker-compose.yml up --build
     ```
 3.  Aplikacja będzie dostępna pod adresem: [http://localhost:8080](http://localhost:8080).
 
 ### Uruchomienie deweloperskie (Maven)
 Jeśli chcesz uruchomić samą aplikację z poziomu IDE:
 1.  Skonfiguruj połączenie z bazą danych w `src/main/resources/application.properties`.
-2.  Uruchom klasę: `vod.VodServiceMain`.
+2.  Uruchom klasę: `bookstore.BookstoreServiceMain`.
 
 ## Dokumentacja API
 
